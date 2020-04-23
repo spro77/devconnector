@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://john1:1nhoj@devconnector-fchj8.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "callmemaniana"
+  "jwtSecret": "callmemaniana",
+  "githubClientId": "d5bbee3dce2d4502a25a",
+  "githubSecret": "eeb26d75f2e231de60930732a4f40f33866b2a7a"
 }
