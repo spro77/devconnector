@@ -106,11 +106,11 @@ img {
     }
 
     .icons a {
-      color: white;
-      margin: 0 0.3rem;
+      color: lighten($primary-color, 30%);
+      margin: 0 0.85rem;
 
       &:hover {
-        color: $dark-color;
+        color: white;
       }
     }
   }

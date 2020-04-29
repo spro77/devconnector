@@ -476,12 +476,12 @@ img {
 }
 
 .profile-grid .profile-top .icons a {
-  color: white;
-  margin: 0 0.3rem;
+  color: #7adeee;
+  margin: 0 0.85rem;
 }
 
 .profile-grid .profile-top .icons a:hover {
-  color: #343a40;
+  color: white;
 }
 
 .profile-grid .profile-about {
