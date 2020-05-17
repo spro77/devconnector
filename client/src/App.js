@@ -7,6 +7,7 @@ import store from './store'
 import { loadUser } from './actions/auth'
 
 import Dashboard from './components/dashboard/Dashboard'
+import PrivateRoute from './components/routing/PrivateRoute'
 import Navbar from './components/layout/Navbar'
 import Landing from './components/layout/Landing'
 import Login from './components/auth/Login'
@@ -39,9 +40,7 @@ const App = () => {
             <Route exact path='/login'>
               <Login />
             </Route>
-            <Route exact path='/dashboard'>
-              <Dashboard />
-            </Route>
+            <PrivateRoute exact path='/dashboard' component={Dashboard}></PrivateRoute>
           </Switch>
         </section>
       </Router>
