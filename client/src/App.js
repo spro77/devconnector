@@ -15,6 +15,7 @@ import Register from './components/auth/Register'
 import Alert from './components/layout/Alert'
 import setAuthToken from './utils/setAuthToken'
 import CreateProfile from './components/profile-form/CreateProfile'
+import EditProfile from './components/profile-form/EditProfile'
 
 if (localStorage.token) {
   setAuthToken(localStorage.token)
@@ -43,6 +44,7 @@ const App = () => {
             </Route>
             <PrivateRoute exact path='/dashboard' component={Dashboard}></PrivateRoute>
             <PrivateRoute exact path='/create-profile' component={CreateProfile}></PrivateRoute>
+            <PrivateRoute exact path='/edit-profile' component={EditProfile}></PrivateRoute>
           </Switch>
         </section>
       </Router>
